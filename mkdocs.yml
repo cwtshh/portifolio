@@ -1,0 +1,13 @@
+site_name: Portifólio - Gustavo Costa de Jesus
+theme:
+  name: material
+
+
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css
