@@ -1,13 +1,31 @@
 site_name: Portifólio - Gustavo Costa de Jesus
 theme:
   name: material
+  palette:
+    primary: deep purple
+    scheme: slate
+  features:
+    - navigation.sections
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 
+nav:
+  - Apresentação: index.md
+  - Projetos: projetos.md
+  - Contato: contato.md
 
 
 
 markdown_extensions:
   - attr_list
   - md_in_html
+  - toc:
+      toc_depth: 0
 
 extra_css:
   - stylesheets/extra.css
+  
